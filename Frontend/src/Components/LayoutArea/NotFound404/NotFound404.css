@@ -1,0 +1,54 @@
+
+.NotFound404 *,
+.NotFound404 *:after,
+.NotFound404 *:before {
+  box-sizing: border-box;
+}
+
+.NotFound404 main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.NotFound404 h1 {
+  color: #313942;
+  font-size: 12.5rem;
+  letter-spacing: .10em;
+  margin: .025em 0;
+  text-shadow: .05em .05em 0 rgba(0,0,0,.25);
+  white-space: nowrap;
+  
+  @media(max-width: 30rem) {
+    font-size: 8.5rem;
+  }
+  
+  & > span {
+    animation: spooky 2s alternate infinite linear;
+    color: #528cce;
+    display: inline-block;
+  }
+}
+
+.NotFound404 h2 {
+  color: #313942;
+  margin-bottom: .40em;
+}
+
+.NotFound404 p {
+  color: #ccc;
+  margin-top: 0;
+}
+
+@keyframes spooky {
+  from {
+    transform: translatey(.15em) scaley(.95);
+  }
+  
+  to {
+    transform: translatey(-.15em);
+  }
+}

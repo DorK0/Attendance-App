@@ -1,0 +1,15 @@
+.EditEmployeeAttendance {
+    min-width: 300px;
+    background-color: #ffffff;
+    padding-inline: 30px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 30%;
+}
+.EditEmployeeAttendance button {
+    background-color: rgb(111, 111, 216);
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-right: 5px;
+}

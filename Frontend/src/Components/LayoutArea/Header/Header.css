@@ -1,0 +1,7 @@
+.Header a, button > a, .navbar-brand{
+	color: whitesmoke;
+    text-decoration: none !important;
+}
+.Header a:hover, .navbar-brand:hover{
+    color: rgb(255, 250, 208);
+}

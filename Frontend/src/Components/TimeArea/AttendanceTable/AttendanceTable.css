@@ -1,0 +1,53 @@
+.AttendanceTable-container {
+    margin: 20px;
+}
+
+.AttendanceTable-header {
+    margin-bottom: 10px;
+}
+
+.AttendanceTable-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.AttendanceTable-table th,
+.AttendanceTable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.AttendanceTable-table th {
+    background-color: #f2f2f2;
+}
+
+.AttendanceTable-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.AttendanceTable-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.AttendanceTable-select select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 20% !important;
+}
+
+.AttendanceTable-select select:hover {
+    border-color: #888;
+}
+
+.AttendanceTable-select select:focus {
+    outline: none;
+    border-color: #5c91fe;
+    box-shadow: 0 0 0 2px rgba(92, 145, 254, 0.2);
+}
+
+.AttendanceTable-select label {
+    margin-right: 5px;
+}

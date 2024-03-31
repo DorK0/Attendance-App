@@ -1,0 +1,42 @@
+[
+    {
+        "userId": 1,
+        "firstName": "Guy",
+        "lastName": "Kiron",
+        "username": "gugily1102",
+        "password": "ef38e5c0abb89e1d4e342f4c21b20900ebfc04a3a95abbc7a766f9976c8e1f94ab3f71dc7634e3fa4029583cf7b85ab26c84e9d5b8ade9c35ad96bedcd3152f9",
+        "role": "Admin"
+    },
+    {
+        "userId": 2,
+        "firstName": "Dor",
+        "lastName": "Kiron",
+        "username": "dork",
+        "password": "7dcc232ddd94cd02e2664757bdcca0b22439f4fcab6108f658a30a2e682f82643218372d52acf675e6faee57e68edc248a3b172e2cb0ff120cc87e8c5cf49d5c",
+        "role": "User"
+    },
+    {
+        "userId": 3,
+        "firstName": "Shirel",
+        "lastName": "Hugi",
+        "username": "shireli",
+        "password": "ef38e5c0abb89e1d4e342f4c21b20900ebfc04a3a95abbc7a766f9976c8e1f94ab3f71dc7634e3fa4029583cf7b85ab26c84e9d5b8ade9c35ad96bedcd3152f9",
+        "role": "User"
+    },
+    {
+        "userId": 4,
+        "firstName": "Tal",
+        "lastName": "Kiron",
+        "username": "talk123",
+        "password": "ef38e5c0abb89e1d4e342f4c21b20900ebfc04a3a95abbc7a766f9976c8e1f94ab3f71dc7634e3fa4029583cf7b85ab26c84e9d5b8ade9c35ad96bedcd3152f9",
+        "role": "User"
+    },
+    {
+        "userId": 5,
+        "firstName": "Noam",
+        "lastName": "Kiron",
+        "username": "noamki",
+        "password": "ef38e5c0abb89e1d4e342f4c21b20900ebfc04a3a95abbc7a766f9976c8e1f94ab3f71dc7634e3fa4029583cf7b85ab26c84e9d5b8ade9c35ad96bedcd3152f9",
+        "role": "User"
+    }
+]

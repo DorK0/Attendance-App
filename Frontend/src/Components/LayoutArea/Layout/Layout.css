@@ -1,0 +1,20 @@
+.Layout {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.Layout.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.Layout.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.Layout .div3 {
+    grid-area: 3 / 1 / 4 / 2;
+}

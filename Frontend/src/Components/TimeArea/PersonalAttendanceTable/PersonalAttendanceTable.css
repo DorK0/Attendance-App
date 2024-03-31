@@ -1,0 +1,53 @@
+.PersonalAttendanceTable-container {
+    margin: 20px;
+}
+
+.PersonalAttendanceTable-header {
+    margin-bottom: 10px;
+}
+
+.PersonalAttendanceTable-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.PersonalAttendanceTable-table th,
+.PersonalAttendanceTable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.PersonalAttendanceTable-table th {
+    background-color: #f2f2f2;
+}
+
+.PersonalAttendanceTable-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.PersonalAttendanceTable-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.PersonalAttendanceTable-select select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 20% !important;
+}
+
+.PersonalAttendanceTable-select select:hover {
+    border-color: #888;
+}
+
+.PersonalAttendanceTable-select select:focus {
+    outline: none;
+    border-color: #5c91fe;
+    box-shadow: 0 0 0 2px rgba(92, 145, 254, 0.2);
+}
+
+.PersonalAttendanceTable-select label {
+    margin-right: 5px;
+}

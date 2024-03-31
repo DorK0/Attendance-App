@@ -1,0 +1,23 @@
+.ClockIn {
+  display: flex;
+  height: 100vh;
+  background: #ffffff;
+  color: 0e0e0e;
+  justify-content: center;
+  align-items: center;
+}
+
+.ClockIn .display {
+  display: flex;
+  width: 600px;
+  font-size: 80px;
+  display: flex;
+  flex-basis: 90px;
+  justify-content: center;
+  flex-grow: 4;
+}
+
+
+.ClockIn .ReactLoading {
+  margin-bottom: 3px;
+}
